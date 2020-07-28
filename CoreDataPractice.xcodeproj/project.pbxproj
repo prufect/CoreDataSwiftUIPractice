@@ -15,6 +15,14 @@
 		A4E8EDDB24D0E74D00AB2FFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDB024D0E74C00AB2FFD /* ContentView.swift */; };
 		A4E8EDDC24D0E74D00AB2FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E8EDB124D0E74D00AB2FFD /* Assets.xcassets */; };
 		A4E8EDDD24D0E74D00AB2FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E8EDB124D0E74D00AB2FFD /* Assets.xcassets */; };
+		A4E8EDEE24D0E7BE00AB2FFD /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDEC24D0E7BE00AB2FFD /* CoreData.xcdatamodeld */; };
+		A4E8EDEF24D0E7BE00AB2FFD /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDEC24D0E7BE00AB2FFD /* CoreData.xcdatamodeld */; };
+		A4E8EDF124D0E95100AB2FFD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDF024D0E95100AB2FFD /* ListView.swift */; };
+		A4E8EDF224D0E95100AB2FFD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDF024D0E95100AB2FFD /* ListView.swift */; };
+		A4E8EDF424D0E95900AB2FFD /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDF324D0E95900AB2FFD /* ListViewModel.swift */; };
+		A4E8EDF524D0E95900AB2FFD /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDF324D0E95900AB2FFD /* ListViewModel.swift */; };
+		A4E8EDF724D0EEC200AB2FFD /* UpdateListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDF624D0EEC200AB2FFD /* UpdateListItemView.swift */; };
+		A4E8EDF824D0EEC200AB2FFD /* UpdateListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8EDF624D0EEC200AB2FFD /* UpdateListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,10 @@
 		A4E8EDD124D0E74D00AB2FFD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E8EDD524D0E74D00AB2FFD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A4E8EDD724D0E74D00AB2FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E8EDED24D0E7BE00AB2FFD /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		A4E8EDF024D0E95100AB2FFD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A4E8EDF324D0E95900AB2FFD /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A4E8EDF624D0EEC200AB2FFD /* UpdateListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,10 @@
 			children = (
 				A4E8EDAF24D0E74C00AB2FFD /* CoreDataPracticeApp.swift */,
 				A4E8EDB024D0E74C00AB2FFD /* ContentView.swift */,
+				A4E8EDF024D0E95100AB2FFD /* ListView.swift */,
+				A4E8EDF624D0EEC200AB2FFD /* UpdateListItemView.swift */,
+				A4E8EDF324D0E95900AB2FFD /* ListViewModel.swift */,
+				A4E8EDEC24D0E7BE00AB2FFD /* CoreData.xcdatamodeld */,
 				A4E8EDB124D0E74D00AB2FFD /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,8 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E8EDF424D0E95900AB2FFD /* ListViewModel.swift in Sources */,
+				A4E8EDF124D0E95100AB2FFD /* ListView.swift in Sources */,
 				A4E8EDDA24D0E74D00AB2FFD /* ContentView.swift in Sources */,
 				A4E8EDD824D0E74D00AB2FFD /* CoreDataPracticeApp.swift in Sources */,
+				A4E8EDF724D0EEC200AB2FFD /* UpdateListItemView.swift in Sources */,
+				A4E8EDEE24D0E7BE00AB2FFD /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E8EDF524D0E95900AB2FFD /* ListViewModel.swift in Sources */,
+				A4E8EDF224D0E95100AB2FFD /* ListView.swift in Sources */,
 				A4E8EDDB24D0E74D00AB2FFD /* ContentView.swift in Sources */,
 				A4E8EDD924D0E74D00AB2FFD /* CoreDataPracticeApp.swift in Sources */,
+				A4E8EDF824D0EEC200AB2FFD /* UpdateListItemView.swift in Sources */,
+				A4E8EDEF24D0E7BE00AB2FFD /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +720,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4E8EDEC24D0E7BE00AB2FFD /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4E8EDED24D0E7BE00AB2FFD /* CoreData.xcdatamodel */,
+			);
+			currentVersion = A4E8EDED24D0E7BE00AB2FFD /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A4E8EDAA24D0E74C00AB2FFD /* Project object */;
 }
